@@ -7,4 +7,4 @@ fav_things = fav_things.sort
 fav_things.delete('novels')
 fav_things_str = fav_things.join(', ')
 puts "My favorite things EVER, in alphabetical order, are: #{fav_things_str}."
-fav_books_movies = {"books" => ["His Dark Materials", ""], "movies" => ["", ""]}
+fav_books_movies = {"books" => ["His Dark Materials", "Invisible Cities"], "movies" => ["Blade", ""]}
