@@ -7,4 +7,8 @@ fav_things = fav_things.sort
 fav_things.delete('novels')
 fav_things_str = fav_things.join(', ')
 puts "My favorite things EVER, in alphabetical order, are: #{fav_things_str}."
-fav_books_movies = {"books" => ["His Dark Materials", "Invisible Cities"], "movies" => ["Blade", ""]}
+fav_books_movies = {"books" => ["His Dark Materials", "Invisible Cities", "I 
+Know Why the Caged Bird Sings"], "movies" => ["Blade", "The Matrix", "Pan's Labyrinth"]}
+
+fav_books = fav_books_movies.fetch('books')
+fav_movies = fav_books_movies.fetch('movies')
