@@ -12,3 +12,6 @@ Know Why the Caged Bird Sings"], "movies" => ["Blade", "The Matrix", "Pan's Laby
 
 fav_books = fav_books_movies.fetch('books')
 fav_movies = fav_books_movies.fetch('movies')
+fav_boks_str = fav_books.join(', ')
+fav_movies_str = fav_movies.join(', ')
+puts "My Favorite books are: #{fav_books_str}. \nMy favorite movies are: #{fav_movies_str}."
