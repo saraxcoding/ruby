@@ -20,16 +20,29 @@ number = number[0].to_i + number[1].to_i
 if number > 9
     number = number.to_s
     number = number[0].to_i + number[1].to_i
-else
-    puts "#{number} is your single-digit birth path number!"
 end
 
 # Display the number and number's meaning using a case statement
 case number
 when 1
-    puts "One is the leader. The number one indicates the ability to stand alone and is a strong vibration. Ruled by the Sun."
+    puts "Your numerology number is #{number}.\nOne is the leader. The number one indicates the ability to stand alone and is a strong vibration. Ruled by the Sun."
 when 2
-    puts "This is the mediator and peace-lover. The number two indicates the desire for harmony. It is a gentle, considerate, and sensitive vibration. Ruled by the Moon."
+    puts "Your numerology number is #{number}.\nThis is the mediator and peace-lover. The number two indicates the desire for harmony. It is a gentle, considerate, and sensitive vibration. Ruled by the Moon."
 when 3
-    puts "Number Three is a sociable, friendly, and outgoing vibration. Kind, positive, and optimistic, Three’s enjoy life and have a good sense of humor. Ruled by Jupiter."
+    puts "Your numerology number is #{number}.\nNumber Three is a sociable, friendly, and outgoing vibration. Kind, positive, and optimistic, Three’s enjoy life and have a good sense of humor. Ruled by Jupiter."
+when 4
+    puts "Your numerology number is #{number}.\nThis is the worker. Practical, with a love of detail, Fours are trustworthy, hard-working, and helpful. Ruled by Uranus."
+when 5
+    puts "Your numerology number is #{number}.\nThis is the freedom lover. The number five is an intellectual vibration. These are ‘idea’ people with a love of variety and the ability to adapt to most situations. Ruled by Mercury."
+when 6
+    puts "Your numerology number is #{number}.\n"
+when 7
+    puts "Your numerology number is #{number}.\n"
+when 8
+    puts "Your numerology number is #{number}.\n"
+when 9
+    puts "Your numerology number is #{number}.\n"
+else 
+    puts "Your birth path number is not 1-9!"
+end
 
