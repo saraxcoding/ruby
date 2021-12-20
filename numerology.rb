@@ -35,13 +35,13 @@ when 4
 when 5
     puts "Your numerology number is #{number}.\nThis is the freedom lover. The number five is an intellectual vibration. These are ‘idea’ people with a love of variety and the ability to adapt to most situations. Ruled by Mercury."
 when 6
-    puts "Your numerology number is #{number}.\n"
+    puts "Your numerology number is #{number}.\nThis is the peace lover. The number six is a loving, stable, and harmonious vibration. Ruled by Venus."
 when 7
-    puts "Your numerology number is #{number}.\n"
+    puts "Your numerology number is #{number}.\nThis is the deep thinker. The number seven is a spiritual vibration. These people are not very attached to material things, are introspective, and generally quiet. Ruled by Neptune."
 when 8
-    puts "Your numerology number is #{number}.\n"
+    puts "Your numerology number is #{number}.\nThis is the manager. Number Eight is a strong, successful, and material vibration. Ruled by Saturn."
 when 9
-    puts "Your numerology number is #{number}.\n"
+    puts "Your numerology number is #{number}.\nThis is the teacher. Number Nine is a tolerant, somewhat impractical, and sympathetic vibration. Ruled by Mars."
 else 
     puts "Your birth path number is not 1-9!"
 end
