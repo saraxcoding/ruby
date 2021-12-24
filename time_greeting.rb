@@ -16,8 +16,15 @@ def greeting(name)
     puts "Good #{time}, #{name.capitalize}!"
 end 
 
-greeting("Emily")
+# greeting("Emily")
 
 def personalized_greeting(name)
-    
+    current_name = greeting
+    if(current_name === "Emily")
+        puts "Hello, #{current_name.capitalize}!"
+    else
+        puts "Oh, I don't know who you are, but greetings!"
 end
+
+personalized_greeting("Sara")
+personalized_greeting("Emily")
