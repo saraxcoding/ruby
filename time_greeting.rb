@@ -11,7 +11,7 @@ def greeting(name)
         time = "afternoon"
     elsif(current_hour > 18 || current_hour < 2)
         time = "evening"
-    end
+end
 
 def personalized_greeting(name)
     current_name = greeting(name)
