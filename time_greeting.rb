@@ -13,18 +13,13 @@ def greeting(name)
         time = "evening"
     end
 
-    puts "Good #{time}, #{name.capitalize}!"
-end 
-
-# greeting("Emily")
-
 def personalized_greeting(name)
-    current_name = greeting
+    current_name = greeting(name)
     if(current_name === "Emily")
-        puts "Hello, #{current_name.capitalize}!"
-    else
+        puts "Good #{time}, #{name.capitalize}!"
+    else 
         puts "Oh, I don't know who you are, but greetings!"
-end
+end 
 
 personalized_greeting("Sara")
 personalized_greeting("Emily")
