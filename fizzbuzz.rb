@@ -3,7 +3,7 @@
 
 i = 0
 while i < 101
-    if i%3 == 0 && i%5 == 0 # number || multiple of three and five "FizzBuzz"
+    if i%3 == 0 && i%5 == 0 # number multiple of three && five "FizzBuzz"
         puts "Fizzbuzz"
     elsif i%3 == 0 # number = multiple of three "Fizz"
         puts "Fizz"
