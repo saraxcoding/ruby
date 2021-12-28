@@ -1,6 +1,6 @@
 class Ferret # define an object class
     def set_name = (ferret_name) # define a method
-        @name = ferret_name
+        @name = ferret_name # define an instance variable for this object's storage
     end
     
     def get_name
@@ -20,6 +20,7 @@ class Ferret # define an object class
     end
 end
 
-my_ferret = Ferret.newmy_ferret.set_name = "Fredo"
+my_ferret = Ferret.new
+my_ferret.set_name = "Fredo" # sets a value to an object
 ferretname = my_ferret.get_name
 puts "#{ferretname} says #{ferret_squeal}"
