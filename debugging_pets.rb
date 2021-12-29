@@ -80,14 +80,14 @@ my_parrot = Parrot.new
 my_parrot.set_name= "Budgie"
 parrotname = my_parrot.get_name
  
-my_chincilla = Chincilla.new
-my_chincilla.set_name= "Dali"
-chincillaname = my_chincilla.get_name
+my_chinchilla = Chinchilla.new
+my_chinchilla.set_name= "Dali"
+chinchillaname = my_chinchilla.get_name
  
 puts "#{ferretname} says #{my_ferret.squeal}, 
 #{parrotname} says #{my_parrot.tweet}, 
-and #{chincillaname} says #{my_chincilla.squeek}."
+and #{chinchillaname} says #{my_chinchilla.squeek}."
  
 puts my_ferret.inspect
 puts my_parrot.inspect
-puts my_chincilla.inspect
+puts my_chinchilla.inspect
