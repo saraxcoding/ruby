@@ -67,7 +67,7 @@ class Parrot
  
     # missing tweet method
     def tweet
-        return "tweet"
+        return "chirp"
     end
 
 end
