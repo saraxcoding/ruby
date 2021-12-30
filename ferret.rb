@@ -24,3 +24,5 @@ my_ferret = Ferret.new
 my_ferret.set_name = "Fredo" # sets a value to an object
 ferretname = my_ferret.get_name
 puts "#{ferretname} says #{my_ferret.squeal}"
+
+puts my_ferret.inspect
