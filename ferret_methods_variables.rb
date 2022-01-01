@@ -6,7 +6,7 @@ class Ferret # define an object class
         @@total_ferrets += 1
     end
 
-    def self.current_count
+    def self.current_count # create a different class method, distinguished from an instance method
         puts "There are currently #{@@total_ferrets} instances in my Ferret class."
     end
 
