@@ -1,5 +1,24 @@
 class Blog
-    define set_title=(title)
+
+    puts "Do you want to create another blog post? [Y/N]"
+    answer = gets.chomp.downcase
+
+    while (answer.downcase == "y")
+        ""
+    end
+
+    @@total_blogposts = 0 # class variable
+
+    def initialize # modify (not override) the NEW method called a class method by adding the method initialize
+        @@total_blogposts += 1
+    end
+
+    def self.current_count # create a different class method, distinguished from an instance method
+        puts "There are currently #{@@total_ferrets} instances in my Ferret class."
+    end
+
+
+    def set_title=(title)
         @title = title
     end
 
