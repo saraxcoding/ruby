@@ -7,14 +7,16 @@ class Blog
         ""
     end
 
-    @@total_blogposts = 0 # class variable
+    @all_blog_posts = []
+    @@total_blog_posts = 0 
 
-    def initialize # modify (not override) the NEW method called a class method by adding the method initialize
-        @@total_blogposts += 1
+    def initialize
+        @@all_blog_posts
     end
 
-    def self.current_count # create a different class method, distinguished from an instance method
-        puts "There are currently #{@@total_ferrets} instances in my Ferret class."
+    def self.publish
+        @all_blog_posts.each do |post|
+            puts "Title: \n #{post.title}"
     end
 
 
