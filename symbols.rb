@@ -8,7 +8,7 @@ entry_02 = { :name => "Kat", :email => "kate.wonderful@gmail.com"}
 entry_03 = { :name => "Tom", :email => "tom.wonderful@gmail.com"}
 entry_04 = { :name => "Timothy", :email => "timothy.wonderful@gmail.com"}
 
-winnder = entry_03[:name]
+winner = entry_03[:name]
 
 puts "#{winner} is the winner of the Mac laptop!"
 
