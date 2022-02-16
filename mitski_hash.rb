@@ -38,4 +38,4 @@ laurel_hell = {
 
 favorite = laurel_hell[:song3]
 
-puts "{#favorite} is my current favorite song by Mitski!"
+puts "#{favorite} is my current favorite song by Mitski!"
