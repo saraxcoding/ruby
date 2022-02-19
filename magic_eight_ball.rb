@@ -19,6 +19,9 @@ puts message.to
 
 # Magic 8-Ball App
 
+require 'nokogiri'
+require 'open-uri'
+
 # create an array of 20 messages for magic 8 ball responses to randomly choose from
 array_8ball_answers = [
     "It is certain.", 
@@ -43,8 +46,16 @@ array_8ball_answers = [
     "Very doubtful."
 ]
 
+# create a method which retreives a random number between 0 - 19 as an array for text message
 def answer_magic_8ball(message)
     rand_number = Random.new
     rand_number = rand(0 .. 19)
     answer = message[rand_number]
 end
+
+# create a prompt to ask user their question for the magic 8 ball
+puts "What is your question for the Magic 8 Ball?"
+user_question = gets.chomp
+
+# call the method for random answers
+answer = answer_magic_8ball(array_8ball_answers)
